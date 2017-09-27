@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.myapplication.MainActivity">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:hint="请输入注册用户名"
+        android:id="@+id/dengruname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_margin="10dp"
+        android:hint="请输入注册密码"
+        android:id="@+id/dengrupass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:text="登入"
+        android:id="@+id/dengru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="注册"
+        android:id="@+id/zhuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
